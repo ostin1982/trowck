@@ -38,17 +38,31 @@
         color: $main-black-color;
         align-items: center;
 
-            &::before {
-                position: absolute;
-                content: '';
-                width: 280px;
-                height: 132px;
-                top: 0;
-                left: 0;
-                background: url('../../images/decoration.png');
-                background-repeat: repeat;
-                opacity: 0.1;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 280px;
+            height: 132px;
+            top: 0;
+            left: 0;
+            background: url('../../images/decoration.png');
+            background-repeat: repeat;
+            opacity: 0.1;
+        }
+
+        &:hover {
+            .svg-arrow path {
+                stroke: #FB4719;
+                stroke-opacity: 1;
             }
+        }
+    }
+
+    .svg-arrow {
+        path {
+            stroke: black;
+            stroke-opacity: 0.08;
+        }
     }
 
     .title {

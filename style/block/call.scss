@@ -88,13 +88,10 @@
 @media screen and (max-width: 730px) {
     .call {
         height: 738px;
-    }
-}
 
-@media screen and (max-width: 400px) {
-    .call {
         .form {
-            width: 311px;
+            margin: 0;
+            width: 100%;
         }
     }
 }

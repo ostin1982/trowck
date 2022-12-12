@@ -44,6 +44,14 @@
   background-repeat: repeat;
   opacity: 0.1;
 }
+.help .go:hover .svg-arrow path {
+  stroke: #FB4719;
+  stroke-opacity: 1;
+}
+.help .svg-arrow path {
+  stroke: black;
+  stroke-opacity: 0.08;
+}
 .help .title {
   font-weight: 600;
   font-size: 18px;

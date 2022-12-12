@@ -82,14 +82,31 @@
     line-height: 26px;
     padding: 0 0 25px 0;
   }
+  .price .little {
+    font-size: 16px;
+    line-height: 19px;
+  }
   .price .more {
     padding: 20px 0;
     text-align: left;
+  }
+  .price .wi {
+    width: 82px;
+    text-align: right;
   }
   .price .visible {
     display: none;
   }
   .price .hidden {
     display: block;
+  }
+}
+@media screen and (max-width: 420px) {
+  .price .more {
+    width: 100px;
+    text-align: left;
+  }
+  .price .wi {
+    text-align: right;
   }
 }/*# sourceMappingURL=price.css.map */

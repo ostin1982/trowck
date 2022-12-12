@@ -127,4 +127,9 @@
     font-size: 12px;
     line-height: 14px;
   }
+}
+@media screen and (max-width: 368px) {
+  .main .size {
+    width: 270px;
+  }
 }/*# sourceMappingURL=main.css.map */

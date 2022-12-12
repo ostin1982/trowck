@@ -11,10 +11,28 @@
         padding-top: 42px;
     }
 
+    .block-small {
+        padding-top: 42px;
+    }
+
+    .overflow {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        overflow: auto;
+    }
+
     .card {
         background: $second-whiter-color;
         border-radius: 20px;
         padding: 25px;
+    }
+
+    .card-small {
+        background: $second-whiter-color;
+        border-radius: 20px;
+        padding: 25px;
+        margin-right: 30px;
     }
 
     .recess {
@@ -83,9 +101,32 @@
             padding-top: 25px;
         }
 
+        .block-small {
+            padding-top: 25px;
+            overflow: auto;
+        }
+
+        .overflow {
+            overflow: auto;
+        }
+
         .card {
             padding: 16px;
             flex-direction: column;
+        }
+
+        .card-small {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 16px;
+            width: 253px;
+            height: 140px;
+            margin-right: 13px;
+        }
+
+        .subtitle {
+            text-align: center;
         }
 
         .recess {
