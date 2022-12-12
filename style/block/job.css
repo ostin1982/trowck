@@ -1,0 +1,61 @@
+.job {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.job .heading {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+}
+.job .block {
+  padding-top: 38px;
+}
+.job .card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+}
+.job .image {
+  width: 111px;
+  height: 111px;
+  padding-right: 25px;
+}
+.job .prefecture {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.job .text {
+  font-size: 18px;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 640px) {
+  .job {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .job .heading {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .job .block {
+    padding-top: 35px;
+  }
+  .job .card {
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .job .image {
+    width: 60px;
+    height: 60px;
+    padding-right: 16px;
+  }
+  .job .text {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+  }
+}/*# sourceMappingURL=job.css.map */

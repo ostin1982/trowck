@@ -1,0 +1,62 @@
+.offcanvas {
+  width: 726px;
+  height: 433px;
+  background: #0F1115;
+  border-radius: 20px;
+  top: 368px;
+}
+.offcanvas .head {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.offcanvas .card {
+  background: #0F1115;
+  border-radius: 8px;
+  border: 2px solid #191B1F;
+  padding: 19px;
+  cursor: pointer;
+  height: 72px;
+}
+.offcanvas .card:hover {
+  background: #191B1F;
+}
+.offcanvas .img {
+  margin-bottom: 12px;
+}
+.offcanvas .textual {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.offcanvas .buttons {
+  padding-top: 14px;
+}
+
+@media screen and (max-width: 960px) {
+  .offcanvas {
+    width: 100vw;
+    height: calc(100vh - 94px);
+    top: 94px;
+    padding: 20px 16px;
+  }
+  .offcanvas .head {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .offcanvas .card {
+    padding: 14px;
+    height: 66px;
+  }
+  .offcanvas .img {
+    margin-bottom: 10px;
+  }
+  .offcanvas .textual {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}/*# sourceMappingURL=offcanvas.css.map */

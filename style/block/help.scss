@@ -1,0 +1,114 @@
+@import 'element';
+
+.help {
+    @include top-80;
+
+    .heading {
+        @include heading-h2;
+    }
+
+    .block {
+        padding-top: 38px;
+    }
+
+    .card {
+        background: $third-gray-color;
+        border-radius: 20px;
+        padding: 55px 45px;
+    }
+
+    .text {
+        font-weight: 500;
+        font-size: $main-font;
+        line-height: 140%;
+        padding-bottom: 18px;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    .go {
+        position: relative;
+        overflow: hidden;
+        background: $second-whiter-color;
+        border-radius: 20px;
+        padding: 27px 52px 27px 35px;
+        text-decoration: none;
+        color: $main-black-color;
+        align-items: center;
+
+            &::before {
+                position: absolute;
+                content: '';
+                width: 280px;
+                height: 132px;
+                top: 0;
+                left: 0;
+                background: url('../../images/decoration.png');
+                background-repeat: repeat;
+                opacity: 0.1;
+            }
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: $main-font;
+        line-height: 140%;
+        text-align: left;
+        width: 216px;
+    }
+
+    .subtitle {
+        font-weight: 500;
+        font-size: $little-font;
+        line-height: 140%;
+        text-align: left;
+        padding: 0 50px 0 30px;
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .help {
+        @include top-40;
+
+        .heading {
+            @include heading-h2-small;
+        }
+
+        .block {
+            padding-top: 25px;
+        }
+
+        .card {
+            background: inherit;
+            padding: 0;
+        }
+
+        .text {
+            font-weight: 400;
+            font-size: $little-font;
+            padding-bottom: 16px;
+    
+            &:last-child {
+                padding-bottom: 0;
+            }
+        }
+
+        .go {
+            height: 150px;
+            padding: 25px;
+            align-items: flex-start;
+        }
+
+        .subtitle {
+            position: absolute;
+            top: 78px;
+            left: 0;
+            width: 82vw;
+            height: 90px;
+            padding: 12px 25px 0 25px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@import 'element';
+
+body {
+    font-size: $main-font;
+    font-family: 'Raleway', sans-serif;
+    color: $main-black-color;
+    background-color: $main-whiter-color;
+    font-variant-numeric: lining-nums;
+    font-feature-settings: 'lnum';
+}
+
+.lock {
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}

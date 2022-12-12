@@ -1,0 +1,61 @@
+$main-black-color: #0C0E12;
+$main-whiter-color: #FAFAFA;
+$second-color: #FB4719;
+$second-whiter-color: #FFFFFF;
+$second-black-color: #0F1115;
+$input-black-color: #191B1F;
+$input-text-color: #797979;
+$main-gray-color: #434343;
+$third-gray-color: #F7F7F7;
+$main-border-color: #A7A8AB;
+
+
+$title-font: 50px;
+$heading-font: 38px;
+$major-font: 32px;
+$big-font: 28px;
+$large-font: 22px;
+$main-font: 18px;
+$little-font: 16px;
+$short-font: 15px;
+$small-font: 14px;
+$tiny-font: 12px;
+$wee-font: 11px;
+
+
+@mixin top-80 {
+    padding-top: 80px;
+}
+
+@mixin top-40 {
+    padding-top: 40px;
+}
+
+@mixin heading-h2 {
+    font-weight: 700;
+    font-size: $heading-font;
+    line-height: 45px;
+}
+
+@mixin heading-h2-small {
+    font-weight: 700;
+    font-size: $large-font;
+    line-height: 26px;
+}
+
+@mixin button {
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: $main-font;
+    line-height: 21px;
+    text-align: center;
+    padding: 18px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+@mixin notch {
+    background: rgba(251, 71, 25, 0.06);
+    border-radius: 20px;
+}

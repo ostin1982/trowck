@@ -1,0 +1,69 @@
+@import 'element';
+
+.job {
+    @include top-80;
+    padding-bottom: 80px;
+
+    .heading {
+        @include heading-h2;
+    }
+
+    .block {
+        padding-top: 38px;
+    }
+
+    .card {
+        background: $second-whiter-color;
+        border-radius: 20px;
+        padding: 25px;
+    }
+
+    .image {
+        width: 111px;
+        height: 111px;
+        padding-right: 25px;
+    }
+
+    .prefecture {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .text {
+        font-size: $main-font;
+        line-height: 140%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .job {
+        @include top-40;
+        padding-bottom: 40px;
+
+        .heading {
+            @include heading-h2-small;
+        }
+
+        .block {
+            padding-top: 35px;
+        }
+
+        .card {
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+
+        .image {
+            width: 60px;
+            height: 60px;
+            padding-right: 16px;
+        }
+
+        .text {
+            font-size: $little-font;
+            line-height: 19px;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+@import 'element';
+
+.privilege {
+    padding-top: 100px;
+
+    .heading {
+        @include heading-h2;
+    }
+
+    .block {
+        padding-top: 42px;
+    }
+
+    .card {
+        background: $second-whiter-color;
+        border-radius: 20px;
+        padding: 25px;
+    }
+
+    .recess {
+        width: 80px;
+        height: 140px;
+        @include notch;
+    }
+
+    .groove {
+        width: 80px;
+        height: 100px;
+        @include notch;
+    }
+
+    .icon {
+        width: 28px;
+        height: 45px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        width: 170px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: $main-font;
+        line-height: 21px;
+        text-align: left;
+    }
+
+    .subtitle {
+        font-weight: 500;
+        font-size: $short-font;
+        line-height: 140%;
+        text-align: left;
+    }
+
+    .number {
+        font-weight: 900;
+        font-size: $major-font;
+        line-height: 140%;
+        color: $second-color;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .privilege {
+        .box {
+            width: calc(50vw - 200px);
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .privilege {
+        @include top-40;
+
+        .heading {
+            @include heading-h2-small;
+        }
+
+        .block {
+            padding-top: 25px;
+        }
+
+        .card {
+            padding: 16px;
+            flex-direction: column;
+        }
+
+        .recess {
+            width: 100%;
+            height: 80px;
+        }
+
+        
+        .groove {
+            width: 100%;
+            height: 80px;
+        }
+
+        .box {
+            width: 100%;
+            padding: 16px 0 0 0;
+            align-items: center;
+        }
+    }
+}

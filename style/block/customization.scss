@@ -1,0 +1,46 @@
+@import 'element';
+
+.uk-input {
+    height: auto;
+}
+
+.uk-tab {
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}
+
+.uk-tab::before {
+    border-bottom: 1px solid $main-border-color;
+    min-width: 900px;
+}
+
+.uk-tab>*>a {
+    color: $main-border-color;
+    border-bottom: 4px solid transparent;
+}
+
+.uk-tab>.uk-active>a {
+    color: $main-black-color;
+    border-color: $second-color;
+}
+
+.uk-table-divider>:first-child>tr:not(:first-child), .uk-table-divider>:not(:first-child)>tr, .uk-table-divider>tr:not(:first-child) {
+    border-top: 1px solid $main-border-color;
+}
+
+.uk-open>.uk-offcanvas-bar {
+    left: 116px;
+}
+
+@media screen and (max-width: 960px) {
+    .uk-open>.uk-offcanvas-bar {
+        left: 0;
+    }
+}

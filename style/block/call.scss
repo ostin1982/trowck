@@ -1,0 +1,100 @@
+@import 'element';
+
+.call {
+    position: relative;
+    background: $main-black-color;
+    border-radius: 20px;
+    padding: 59px 110px;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 1298px;
+        height: 580px;
+        bottom: 0;
+        right: 0;
+        background-image: url('../../images/truck.png');
+        z-index: 10;
+    }
+
+    .box {
+        position: relative;
+    }
+
+    .heading {
+        font-weight: 700;
+        font-size: $heading-font;
+        line-height: 140%;
+        color: $second-whiter-color;
+        text-align: left;
+        width: 413px;
+    }
+
+    .text {
+        font-weight: 500;
+        font-size: $large-font;
+        line-height: 140%;
+        color: $second-whiter-color;
+        text-align: left;
+        width: 413px;
+        padding: 18px 0 32px 0;
+    }
+
+    .form {
+        width: 343px;
+    }
+
+    .block {
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .call {
+        &::before {
+            width: 343px;
+            height: 738px;
+            bottom: 0;
+            right: 0;
+            background-image: url('../../images/truck-small.png');
+            z-index: 10;
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .call {
+        height: 420px;
+        padding: 30px 16px;
+
+        .box {
+            width: 100%;
+        }
+
+        .heading {
+            font-size: $large-font;
+            width: 100%;
+        }
+
+        .text {
+            width: 100%;
+            font-size: $little-font;
+            padding: 16px 0 30px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .call {
+        height: 738px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .call {
+        .form {
+            width: 311px;
+        }
+    }
+}

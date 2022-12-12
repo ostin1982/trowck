@@ -1,0 +1,15 @@
+@import 'block/body.css';
+@import 'block/customization.css';
+@import 'block/input.css';
+@import 'block/button.css';
+@import 'block/top.css';
+@import 'block/header.css';
+@import 'block/main.css';
+@import 'block/offcanvas.css';
+@import 'block/privilege.css';
+@import 'block/help.css';
+@import 'block/price.css';
+@import 'block/job.css';
+@import 'block/call.css';
+@import 'block/footer.css';
+@import 'block/modal.css';

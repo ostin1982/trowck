@@ -1,0 +1,73 @@
+@import 'element';
+
+.footer {
+    padding-top: 100px;
+
+    .block {
+        border-top: 1px solid #E3E4E7;
+    }
+
+    .box {
+        padding: 50px 0;
+    }
+
+    .logo {
+        text-align: left;
+    }
+
+    .text {
+        font-weight: 500;
+        font-size: $little-font;
+        line-height: 140%;
+        color: rgba(0, 0, 0, 0.18);
+        text-align: left;
+    }
+
+    .link {
+        font-weight: 500;
+        font-size: $little-font;
+        line-height: 140%;
+        text-decoration-line: underline;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        padding-top: 59px;
+
+        .box {
+            padding: 16px 0 27px 0;
+        }
+
+        .module {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .hidden {
+            display: block;
+            padding-top: 20px;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .text {
+            font-size: $tiny-font;
+        }
+
+        .link {
+            text-align: center;
+            font-size: $small-font;
+        }
+    }
+}

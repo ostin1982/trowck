@@ -1,0 +1,74 @@
+.button-1 {
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 18px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background: #FFFFFF;
+}
+
+.button-2 {
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 18px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background: #FB4719;
+  color: #FFFFFF;
+}
+
+.button-3 {
+  background-color: #0F1115;
+  border: none;
+  cursor: pointer;
+}
+
+.button-4 {
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 18px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background: #0F1115;
+  width: 150px;
+  margin-right: 17px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.button-5 {
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding: 18px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background: #FFFFFF;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .button-4 {
+    display: none;
+  }
+}/*# sourceMappingURL=button.css.map */

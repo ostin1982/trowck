@@ -1,0 +1,44 @@
+@import 'element';
+
+.button-1 {
+    @include button;
+    background: $second-whiter-color;
+}
+
+.button-2 {
+    @include button;
+    background: $second-color;
+    color: $second-whiter-color;
+}
+
+.button-3 {
+    background-color: $second-black-color;
+    border: none;
+    cursor: pointer;
+}
+
+.button-4 {
+    @include button;
+    border: 1px solid $second-whiter-color;
+    color: $second-whiter-color;
+    background: $second-black-color;
+    width: 150px;
+    margin-right: 17px;
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.button-5 {
+    @include button;
+    background: $second-whiter-color;
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+@media screen and (max-width: 960px) {
+    .button-4 {
+        display: none;
+    }
+}

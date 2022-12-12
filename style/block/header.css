@@ -1,0 +1,86 @@
+.header {
+  position: relative;
+  padding: 31px 0;
+  z-index: 11;
+}
+.header .nav {
+  display: block;
+}
+.header .list {
+  list-style-type: none;
+  justify-content: space-between;
+}
+.header .link {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+.header .link:hover {
+  text-decoration: none;
+}
+.header .hidden {
+  display: none;
+}
+.header .burger {
+  display: none;
+}
+.header .cross {
+  display: none;
+}
+.header .goo {
+  display: none;
+  margin: 0 0 0 200px;
+}
+
+.fixed .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #0C0E12;
+  z-index: 100;
+}
+.fixed .goo {
+  display: block;
+}
+
+@media screen and (max-width: 960px) {
+  .header .nav {
+    display: none;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  .header .nav.active {
+    display: block;
+  }
+  .header .list {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #0F1115;
+    z-index: 100;
+    height: 100vh;
+    padding: 0;
+  }
+  .header .roster {
+    padding-top: 50px;
+  }
+  .header .hidden {
+    display: block;
+    padding-top: 85px;
+    width: 342px;
+  }
+  .header .burger.active {
+    display: block;
+  }
+  .header .cross.active {
+    display: block;
+  }
+  .fixed .goo {
+    display: none;
+  }
+}/*# sourceMappingURL=header.css.map */

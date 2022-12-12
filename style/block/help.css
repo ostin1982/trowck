@@ -1,0 +1,100 @@
+.help {
+  padding-top: 80px;
+}
+.help .heading {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+}
+.help .block {
+  padding-top: 38px;
+}
+.help .card {
+  background: #F7F7F7;
+  border-radius: 20px;
+  padding: 55px 45px;
+}
+.help .text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  padding-bottom: 18px;
+}
+.help .text:last-child {
+  padding-bottom: 0;
+}
+.help .go {
+  position: relative;
+  overflow: hidden;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 27px 52px 27px 35px;
+  text-decoration: none;
+  color: #0C0E12;
+  align-items: center;
+}
+.help .go::before {
+  position: absolute;
+  content: "";
+  width: 280px;
+  height: 132px;
+  top: 0;
+  left: 0;
+  background: url("../../images/decoration.png");
+  background-repeat: repeat;
+  opacity: 0.1;
+}
+.help .title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: left;
+  width: 216px;
+}
+.help .subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: left;
+  padding: 0 50px 0 30px;
+  width: 390px;
+}
+
+@media screen and (max-width: 640px) {
+  .help {
+    padding-top: 40px;
+  }
+  .help .heading {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .help .block {
+    padding-top: 25px;
+  }
+  .help .card {
+    background: inherit;
+    padding: 0;
+  }
+  .help .text {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 16px;
+  }
+  .help .text:last-child {
+    padding-bottom: 0;
+  }
+  .help .go {
+    height: 150px;
+    padding: 25px;
+    align-items: flex-start;
+  }
+  .help .subtitle {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    width: 82vw;
+    height: 90px;
+    padding: 12px 25px 0 25px;
+  }
+}/*# sourceMappingURL=help.css.map */

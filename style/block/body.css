@@ -1,0 +1,13 @@
+body {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  color: #0C0E12;
+  background-color: #FAFAFA;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum";
+}
+
+.lock {
+  overflow-y: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+}/*# sourceMappingURL=body.css.map */

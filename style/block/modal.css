@@ -1,0 +1,95 @@
+.modal {
+  background: #0C0E12;
+  border-radius: 20px;
+  padding: 50px 45px;
+}
+.modal .cross {
+  position: absolute;
+  top: 20px;
+  right: -40px;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.modal .heading {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.modal .text {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.modal .form {
+  padding: 35px 0 20px 0;
+}
+.modal .block {
+  padding-bottom: 14px;
+}
+.modal .info {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #797979;
+}
+.modal .check {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.modal .padding {
+  padding-top: 57px;
+}
+.modal .data {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+.modal .caption {
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.modal-small {
+  width: 423px;
+  height: 433px;
+}
+
+@media screen and (max-width: 640px) {
+  .modal {
+    padding: 30px 20px;
+  }
+  .modal .heading {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .modal .text {
+    padding-top: 12px;
+    font-size: 16px;
+  }
+  .modal .form {
+    padding: 30px 0 20px 0;
+  }
+  .modal .info {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .modal .check {
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=modal.css.map */

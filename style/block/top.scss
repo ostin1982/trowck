@@ -1,0 +1,79 @@
+@import 'element';
+
+.top {
+    position: relative;
+    background-color: $main-black-color;
+    height: 900px;
+    border-radius: 0px 0px 80px 80px;
+    overflow: hidden;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 1777px;
+        height: 925px;
+        bottom: 0px;
+        right: 0px;
+        background-image: url('../../images/points.png');
+        z-index: 0;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 1650px;
+        height: 1232px;
+        bottom: 130px;
+        right: -834px;
+        background-image: url('../../images/triangles.png');
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .top {
+        &::after {
+            width: 952px;
+            height: 925px;
+            background-image: url('../../images/quadrilaterals.png');
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .top {
+        height: 720px;
+        border-radius: 0px 0px 30px 30px;
+
+        &::after {
+            width: 375px;
+            height: 356px;
+            background-image: url('../../images/quadrilaterals-small.png');
+            background-repeat: no-repeat;
+        }
+
+        &::before {
+            width: 420px;
+            height: 324px;
+            bottom: 160px;
+            right: -113px;
+            background-image: url('../../images/triangles-small.png');
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .top {
+        height: 972px;
+
+        &::after {
+            width: 760px;
+            background-repeat: repeat;
+        }
+
+        &::before {
+            bottom: 16px;
+        }
+    }
+}

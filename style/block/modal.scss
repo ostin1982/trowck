@@ -1,0 +1,112 @@
+@import 'element';
+
+.modal {
+    background: $main-black-color;
+    border-radius: 20px;
+    padding: 50px 45px;
+
+    .cross {
+        position: absolute;
+        top: 20px;
+        right: -40px;
+        width: 35px;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .heading {
+        font-weight: 700;
+        font-size: $heading-font;
+        line-height: 45px;
+        text-align: center;
+        color: $second-whiter-color;
+    }
+
+    .text {
+        padding-top: 20px;
+        font-weight: 500;
+        font-size: $large-font;
+        line-height: 140%;
+        text-align: center;
+        color: $second-whiter-color;
+    }
+
+    .form {
+        padding: 35px 0 20px 0;
+    }
+
+    .block {
+        padding-bottom: 14px;
+    }
+
+    .info {
+        font-weight: 500;
+        font-size: $tiny-font;
+        line-height: 16px;
+        text-align: center;
+        color: $input-text-color;
+    }
+
+    .check {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .padding {
+        padding-top: 57px;
+    }
+
+    .data {
+        font-weight: 500;
+        font-size: $little-font;
+        line-height: 140%;
+        text-align: left;
+        color: $second-whiter-color;
+        padding-top: 20px;
+    }
+
+    .caption {
+        padding-top: 20px;
+        font-weight: 500;
+        font-size: $large-font;
+        line-height: 140%;
+        text-align: left;
+        color: $second-whiter-color;
+    }
+}
+
+.modal-small {
+    width: 423px;
+    height: 433px;
+}
+
+@media screen and (max-width: 640px) {
+    .modal {
+        padding: 30px 20px;
+
+        .heading {
+            font-size: $large-font;
+            line-height: 26px;
+        }
+
+        .text {
+            padding-top: 12px;
+            font-size: $little-font;
+        }
+
+        .form {
+            padding: 30px 0 20px 0;
+        }
+
+        .info {
+            font-size: $wee-font;
+            line-height: 13px;
+        }
+
+        .check {
+            padding-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,160 @@
+@import 'element';
+
+.main {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        background-image: url('../../images/car.png');
+        background-repeat: no-repeat;
+        width: 762px;
+        height: 638px;
+        bottom: 72px;
+        right: 0px;
+        z-index: 11;
+    }
+
+    .left {
+        position: relative;
+        padding-top: 39px;
+        z-index: 12;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: $title-font;
+        line-height: 59px;
+        color: $second-color;
+
+        .gradient {
+            background: linear-gradient(90deg, #758097 0%, #FDFEFE 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .info {
+        padding-top: 50px;
+    }
+
+    .size {
+        padding: 35px 40px;
+        background: $second-black-color;
+        border-radius: 20px;
+        width: 343px;
+    }
+
+    .form {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .block {
+        padding-bottom: 26px;
+    }
+
+    .label {
+        font-weight: 600;
+        font-size: $main-font;
+        line-height: 21px;
+        color: $second-whiter-color;
+        text-align: left;
+        padding-bottom: 16px;
+    }
+
+    .text {
+        padding-top: 22px;
+        font-size: $small-font;
+        line-height: 16px;
+        text-align: center;
+        color: $main-gray-color;
+    }
+
+    .card {
+        background: $second-black-color;
+        border-radius: 20px;
+        padding: 66px 30px;
+    }
+
+    .big {
+        font-weight: 600;
+        font-size: $big-font;
+        line-height: 33px;
+        text-align: center;
+        color: $second-whiter-color;
+    }
+
+    .small {
+        font-weight: 400;
+        font-size: $little-font;
+        line-height: 19px;
+        text-align: center;
+        color: $second-whiter-color;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .main {
+        .time {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .main {
+        z-index: 1;
+        
+        &:before {
+            background-image: url('../../images/car-small.png');
+            width: 343px;
+            height: 284px;
+            bottom: 110px;
+        }
+
+        .left {
+            padding-top: 14px;
+        }
+
+        .title {
+            font-size: 27px;
+            line-height: 32px;
+        }
+
+        .info {
+            padding-top: 25px;
+        }
+
+        .size {
+            padding: 28px 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .main {
+        &:before {
+            bottom: -340px;
+        }
+
+        .size {
+            width: 311px;
+        }
+
+        .block {
+            padding-bottom: 22px;
+        }
+
+        .label {
+            font-size: $little-font;
+            line-height: 19px;
+        }
+
+        .text {
+            padding-top: 20px;
+            font-size: $tiny-font;
+            line-height: 14px;
+        }
+    }
+}

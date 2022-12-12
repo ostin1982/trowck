@@ -1,0 +1,26 @@
+@import 'element';
+
+.input {
+    background: $input-black-color;
+    border-radius: 8px;
+    padding: 17px 21px;
+    border: none;
+    width: 100%;
+
+    &::placeholder {
+        font-weight: 500;
+        font-size: $little-font;
+        line-height: 19px;
+        color: $input-text-color;
+    }
+
+    &:focus {
+        background: $input-black-color;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .input {
+        padding: 12px 16px;
+    }
+}

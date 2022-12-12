@@ -1,0 +1,92 @@
+.privilege {
+  padding-top: 100px;
+}
+.privilege .heading {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+}
+.privilege .block {
+  padding-top: 42px;
+}
+.privilege .card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 25px;
+}
+.privilege .recess {
+  width: 80px;
+  height: 140px;
+  background: rgba(251, 71, 25, 0.06);
+  border-radius: 20px;
+}
+.privilege .groove {
+  width: 80px;
+  height: 100px;
+  background: rgba(251, 71, 25, 0.06);
+  border-radius: 20px;
+}
+.privilege .icon {
+  width: 28px;
+  height: 45px;
+}
+.privilege .box {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  width: 170px;
+}
+.privilege .title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+}
+.privilege .subtitle {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: left;
+}
+.privilege .number {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 140%;
+  color: #FB4719;
+}
+
+@media screen and (max-width: 1200px) {
+  .privilege .box {
+    width: calc(50vw - 200px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .privilege {
+    padding-top: 40px;
+  }
+  .privilege .heading {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .privilege .block {
+    padding-top: 25px;
+  }
+  .privilege .card {
+    padding: 16px;
+    flex-direction: column;
+  }
+  .privilege .recess {
+    width: 100%;
+    height: 80px;
+  }
+  .privilege .groove {
+    width: 100%;
+    height: 80px;
+  }
+  .privilege .box {
+    width: 100%;
+    padding: 16px 0 0 0;
+    align-items: center;
+  }
+}/*# sourceMappingURL=privilege.css.map */
