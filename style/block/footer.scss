@@ -34,6 +34,25 @@
     .hidden {
         display: none;
     }
+
+    .telephone {
+        font-weight: 800;
+        font-size: $main-font;
+        line-height: 21px;
+        text-align: right;
+        color: $main-black-color;
+    }
+
+    .working {
+        font-weight: 400;
+        font-size: $little-font;
+        line-height: 19px;
+        color: $input-text-color;
+    }
+
+    .hide {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -53,7 +72,7 @@
         }
 
         .hidden {
-            display: block;
+            display: flex;
             padding-top: 20px;
         }
 

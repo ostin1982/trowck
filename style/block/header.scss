@@ -39,7 +39,30 @@
 
     .goo {
         display: none;
-        margin: 0 0 0 200px;
+        margin: 0;
+    }
+
+    .telephone {
+        font-weight: 800;
+        font-size: $main-font;
+        line-height: 21px;
+        text-align: right;
+        color: $second-whiter-color;
+    }
+
+    .working {
+        font-weight: 400;
+        font-size: $little-font;
+        line-height: 19px;
+        color: $second-whiter-color;
+    }
+
+    .conspicuous {
+        display: flex;
+    }
+
+    .eminent {
+        display: none;
     }
 }
 
@@ -54,21 +77,39 @@
     }
 
     .goo {
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right {
+        padding-right: 14px;
+    }
+
+    .conspicuous {
+        display: none;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .header {
         .goo {
-            margin: 0 0 0 0;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1306px) {
+    .header {
+        .goo {
+            width: 92vw;
         }
     }
 }
 
 @media screen and (max-width: 960px) {
     .header {
-        padding: 20px 0;
+        padding: 20px 0 0 0;
         
         .nav {
             display: none;
@@ -110,11 +151,37 @@
         .cross.active {
             display: block;
         }
+
+        .conspicuous {
+            display: none;
+        }
     }
 
     .fixed {    
         .goo {
             display: none;
+        }
+
+        .eminent {
+            display: flex;
+            background-color: $main-whiter-color;
+            padding: 10px 0;
+            margin-top: 20px;
+
+            .hours {
+                font-weight: 500;
+                font-size: $wee-font;
+                line-height: 15px;
+                color: $main-black-color;
+                padding-right: 14px;
+            }
+
+            .inquiries {
+                font-weight: 700;
+                font-size: $wee-font;
+                line-height: 15px;
+                color: $main-black-color;
+            }
         }
     }
 }

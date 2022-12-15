@@ -28,6 +28,22 @@
 .footer .hidden {
   display: none;
 }
+.footer .telephone {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #0C0E12;
+}
+.footer .working {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #797979;
+}
+.footer .hide {
+  display: flex;
+}
 
 @media screen and (max-width: 640px) {
   .footer {
@@ -44,7 +60,7 @@
     width: 100%;
   }
   .footer .hidden {
-    display: block;
+    display: flex;
     padding-top: 20px;
   }
   .footer .hide {

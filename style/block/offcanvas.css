@@ -3,7 +3,7 @@
   height: 433px;
   background: #0F1115;
   border-radius: 20px;
-  top: 368px;
+  top: calc(100vh - 620px);
 }
 .offcanvas .head {
   font-weight: 600;
@@ -20,6 +20,9 @@
   height: 72px;
 }
 .offcanvas .card:hover {
+  background: #191B1F;
+}
+.offcanvas .color {
   background: #191B1F;
 }
 .offcanvas .img {

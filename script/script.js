@@ -66,6 +66,12 @@ $('.js-card').click(function(event) {
 
     const name = $(this).attr('data-name');
     $('.js-input').val(name);
+
+    const card = $(this);
+
+    if(card.click) {
+        $('.button-5').addClass('button-5-color');
+    }
 })
 
 
