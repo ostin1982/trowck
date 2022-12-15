@@ -9,7 +9,6 @@
     overflow-y: hidden;
     overflow-x: auto;
     scrollbar-width: none;
-    width: 100vw;
 
     &::-webkit-scrollbar {
         width: 0;
@@ -47,5 +46,12 @@
 @media screen and (max-width: 960px) {
     .uk-open>.uk-offcanvas-bar {
         left: 0;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    .uk-tab {
+        width: 100vw;
     }
 }
