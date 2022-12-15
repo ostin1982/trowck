@@ -31,6 +31,10 @@
         color: rgba(0, 0, 0, 0.5);
     }
 
+    .padding {
+        padding-top: 20px;
+    }
+
     .hidden {
         display: none;
     }
@@ -73,7 +77,7 @@
 
         .hidden {
             display: flex;
-            padding-top: 20px;
+            padding-top: 35px;
         }
 
         .hide {

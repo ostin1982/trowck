@@ -14,6 +14,10 @@
         justify-content: space-between;
     }
 
+    .roster {
+        padding: 0 10px 0 0;
+    }
+
     .link {
         color: $second-whiter-color;
         font-weight: 600;
@@ -22,6 +26,12 @@
 
         &:hover {
             text-decoration: none;
+            color: $second-color;
+        }
+
+        &:focus  {
+            font-weight: 700;
+            color: $second-color;
         }
     }
 
@@ -114,7 +124,7 @@
         .nav {
             display: none;
             position: absolute;
-            top: 94px;
+            top: 70px;
             left: 0;
             width: 100vw;
             height: 100vh;
@@ -135,7 +145,7 @@
         }
 
         .roster {
-            padding-top: 50px;
+            padding: 50px 0 0 0;
         }
 
         .hidden {

@@ -18,6 +18,9 @@
   align-items: flex-start;
   overflow: auto;
 }
+.privilege .overflow::-webkit-scrollbar {
+  width: 0;
+}
 .privilege .card {
   background: #FFFFFF;
   border-radius: 20px;

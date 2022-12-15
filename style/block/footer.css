@@ -25,6 +25,9 @@
           text-decoration-line: underline;
   color: rgba(0, 0, 0, 0.5);
 }
+.footer .padding {
+  padding-top: 20px;
+}
 .footer .hidden {
   display: none;
 }
@@ -61,7 +64,7 @@
   }
   .footer .hidden {
     display: flex;
-    padding-top: 20px;
+    padding-top: 35px;
   }
   .footer .hide {
     display: none;

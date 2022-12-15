@@ -23,13 +23,13 @@
   border-bottom: 4px solid transparent;
 }
 
+.uk-tab > * > a:hover {
+  border-color: #A7A8AB;
+}
+
 .uk-tab > .uk-active > a {
   color: #0C0E12;
   border-color: #FB4719;
-}
-
-.uk-tab > * > a:hover {
-  border-color: #A7A8AB;
 }
 
 .uk-table-divider > :first-child > tr:not(:first-child), .uk-table-divider > :not(:first-child) > tr, .uk-table-divider > tr:not(:first-child) {

@@ -25,6 +25,7 @@
 }
 .input:focus {
   background: #191B1F;
+  border: 1px solid #FB4719;
 }
 
 @media screen and (max-width: 760px) {

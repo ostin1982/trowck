@@ -16,6 +16,7 @@
 
     &:focus {
         background: $input-black-color;
+        border: 1px solid $second-color;
     }
 }
 

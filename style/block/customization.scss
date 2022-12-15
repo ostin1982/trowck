@@ -26,13 +26,13 @@
     border-bottom: 4px solid transparent;
 }
 
+.uk-tab>*>a:hover {
+    border-color: $main-border-color
+}
+
 .uk-tab>.uk-active>a {
     color: $main-black-color;
     border-color: $second-color;
-}
-
-.uk-tab>*>a:hover {
-    border-color: $main-border-color
 }
 
 .uk-table-divider>:first-child>tr:not(:first-child), .uk-table-divider>:not(:first-child)>tr, .uk-table-divider>tr:not(:first-child) {
