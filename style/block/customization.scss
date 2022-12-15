@@ -9,6 +9,7 @@
     overflow-y: hidden;
     overflow-x: auto;
     scrollbar-width: none;
+    width: 100vw;
 
     &::-webkit-scrollbar {
         width: 0;
