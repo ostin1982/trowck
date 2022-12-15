@@ -6,6 +6,11 @@
     width: 260px
 }
 
+.button-1-2 {
+    @include button;
+    background: $second-whiter-color;
+}
+
 .button-2 {
     @include button;
     background: $second-color;
